@@ -1,4 +1,4 @@
-# Telegram Contacts Exporter
+# Telegram Contacts Exporter by FobosNS
 
 Програма на основі wxPython і Telethon для експорту контактів з Telegram у формати TXT, CSV або VCF. Вона дозволяє користувачам підключитися до свого облікового запису Telegram, отримати список контактів і зберегти їх у вибраному форматі.
 
