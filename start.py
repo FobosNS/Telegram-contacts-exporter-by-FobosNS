@@ -131,7 +131,7 @@ class MainFrame(wx.Frame):
         self.export_btn.Disable()
 
         # Кнопка для завершения сеанса
-        self.disconnect_btn = wx.Button(self.panel, label="Завершити сессію експорту контактів")
+        self.disconnect_btn = wx.Button(self.panel, label="Завершити сесію експорту контактів")
         vbox.Add(self.disconnect_btn, flag=wx.EXPAND | wx.LEFT | wx.RIGHT | wx.BOTTOM, border=10)
         self.disconnect_btn.Bind(wx.EVT_BUTTON, self.on_disconnect)
         self.disconnect_btn.Disable()
